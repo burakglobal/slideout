@@ -13,6 +13,8 @@
 		6AE816561B728686002C6A7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE816551B728686002C6A7A /* Images.xcassets */; };
 		6AE816591B728686002C6A7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE816571B728686002C6A7A /* LaunchScreen.xib */; };
 		6AE816651B728686002C6A7A /* slideoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE816641B728686002C6A7A /* slideoutTests.swift */; };
+		6AE8166F1B75553B002C6A7A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8166E1B75553B002C6A7A /* MenuViewController.swift */; };
+		6AE816711B75554C002C6A7A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE816701B75554C002C6A7A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6AE8165E1B728686002C6A7A /* slideoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE816631B728686002C6A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE816641B728686002C6A7A /* slideoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideoutTests.swift; sourceTree = "<group>"; };
+		6AE8166E1B75553B002C6A7A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6AE816701B75554C002C6A7A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				6AE8164E1B728686002C6A7A /* AppDelegate.swift */,
 				6AE816501B728686002C6A7A /* ContainerViewController.swift */,
 				6AE816521B728686002C6A7A /* Main.storyboard */,
+				6AE8166E1B75553B002C6A7A /* MenuViewController.swift */,
+				6AE816701B75554C002C6A7A /* MainViewController.swift */,
 				6AE816551B728686002C6A7A /* Images.xcassets */,
 				6AE816571B728686002C6A7A /* LaunchScreen.xib */,
 				6AE8164C1B728686002C6A7A /* Supporting Files */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE816511B728686002C6A7A /* ContainerViewController.swift in Sources */,
+				6AE8166F1B75553B002C6A7A /* MenuViewController.swift in Sources */,
 				6AE8164F1B728686002C6A7A /* AppDelegate.swift in Sources */,
+				6AE816711B75554C002C6A7A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
